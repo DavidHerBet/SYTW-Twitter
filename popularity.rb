@@ -7,6 +7,7 @@ amigos = Twitter.friend_ids(cuenta)
 num_amigos = amigos.count
 amigos_populares = Hash.new
 
+# Busca la popularidad de todos sus amigos
 if salida.zero?
   num_amigos.times do |n|
     amigo = Twitter.user(amigos.ids[n])
@@ -14,7 +15,7 @@ if salida.zero?
       amigos_populares[amigo.name] = amigo.followers_count
     end
   end
-else
+else	# Busca la popularidad de X amigos
   salida.times do |n|
     amigo = Twitter.user(amigos.ids[n])
     if (amigo.protected.to_s != "true")
@@ -23,4 +24,4 @@ else
   end
 end
 
-amigos_populares.sort_by {|amigo, followers| -followers}.each {|a, f| puts "#{a}, #{f}"}
+amigos_populares.sort_by {|amigo, seguidores| -seguidores}.each {|a, s| puts "#{a}, #{s}"}
