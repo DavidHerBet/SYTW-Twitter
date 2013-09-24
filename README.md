@@ -8,17 +8,17 @@ Escriba una aplicación que reciba como argumento un usuario de Twitter y muestr
 
 **Formas de uso**
 
-1. Para ejecutar el programa con el usuario por defecto (David\_HerBet)
+1. Para ejecutar el programa con el usuario por defecto (David\_HerBet):
 
-     $ ruby popularity.rb
+        $ ruby popularity.rb
 
-2. Para ejecutar el programa suministrandole un usuario
+2. Para ejecutar el programa suministrandole un usuario:
 
-     $ ruby popularity.rb UsuarioTwitter
+        $ ruby popularity.rb UsuarioTwitter
 
-3. Para ejecutar el programa suministrándole un usuario y mostrando un número de salidas limitado
+3. Para ejecutar el programa suministrándole un usuario y mostrando un número de salidas limitado:
 
-     $ ruby popularity.rb UsuariTwitter 5
+        $ ruby popularity.rb UsuariTwitter 5
    
 
 ---
