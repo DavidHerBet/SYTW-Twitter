@@ -11,28 +11,24 @@ Instrucciones
 
 1. Se debe de crear un archivo "configure.rb" que contenga tus credenciales de Twitter:
 
-```
-Twitter.configure do |config|
-  config.consumer_key       = "YOUR_CONSUMER_KEY"
-  config.consumer_secret    = "YOUR_CONSUMER_SECRET"
-  config.oauth_token        = "YOUR_ACCESS_TOKEN"
-  config.oauth_token_secret = "YOUR_ACCESS_SECRET"
-end
-```
+     Twitter.configure do |config|
+       config.consumer_key       = "YOUR_CONSUMER_KEY"
+       config.consumer_secret    = "YOUR_CONSUMER_SECRET"
+       config.oauth_token        = "YOUR_ACCESS_TOKEN"
+       config.oauth_token_secret = "YOUR_ACCESS_SECRET"
+     end
 
 2. Para ejecutar el programa con el usuario por defecto (David\_HerBet):
 
-```
-$ ruby popularity.rb
-```
+     $ ruby popularity.rb
 
 3. Para ejecutar el programa suministrandole un usuario:
 
-```$ ruby popularity.rb UsuarioTwitter```
+     $ ruby popularity.rb UsuarioTwitter
 
 4. Para ejecutar el programa suministrándole un usuario y mostrando un número de salidas limitado:
 
-```$ ruby popularity.rb UsuarioTwitter 5```
+     $ ruby popularity.rb UsuarioTwitter 5
    
 
 **Notas:**
