@@ -22,7 +22,9 @@ end
 
 2. Para ejecutar el programa con el usuario por defecto (David\_HerBet):
 
-```$ ruby popularity.rb```
+```
+$ ruby popularity.rb
+```
 
 3. Para ejecutar el programa suministrandole un usuario:
 
