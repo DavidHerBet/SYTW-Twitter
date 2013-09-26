@@ -22,15 +22,15 @@ end
 
 2. Para ejecutar el programa con el usuario por defecto (David\_HerBet):
 
-        $ ruby popularity.rb
+```$ ruby popularity.rb```
 
 3. Para ejecutar el programa suministrandole un usuario:
 
-        $ ruby popularity.rb UsuarioTwitter
+```$ ruby popularity.rb UsuarioTwitter```
 
 4. Para ejecutar el programa suministrándole un usuario y mostrando un número de salidas limitado:
 
-        $ ruby popularity.rb UsuarioTwitter 5
+```$ ruby popularity.rb UsuarioTwitter 5```
    
 
 **Notas:**
